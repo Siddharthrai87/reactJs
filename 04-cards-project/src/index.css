@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins', helvetica neue, sans-serif;
+  color: #111;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.parent{
+  height: 100vh;
+  width: 100vw;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.card{
+  height: 400px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-left: 3%;
+  padding-top: 3%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 0fr 1fr;
+}
+
+.top img{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.top button{
+  margin-left: 30%;
+    position: relative;
+    bottom: 59px;
+}
+
+.center{
+  
+}
+
+.center h3 span{
+  font-size: 12px;
+  font-weight: 300;
+  color: grey;
+}
+.center div h4 span{
+  margin: 11px;
+  background-color: #e1e3e3;
+  padding: 5px;
+  border-radius: 9px;
+}
+hr{
+  padding: 0px;
+  margin-right: 9%;
+}
+.bottom{
+  display: flex;
+  position: relative;
+}
+.bottom div{
+  width: 50%;
+}
+
+.bottom  button{
+  margin-top: 9%;
+  margin-left: 10%;
+  background-color: #111;
+  color: white;
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+}
